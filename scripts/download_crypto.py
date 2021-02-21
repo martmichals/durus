@@ -1,5 +1,5 @@
 """
-This script downloads data for crypto, using the metdata.json folders in each 
+This script downloads data for crypto, using the metadata.json in each 
 directory to generate urls, as well as run the necessary data formatting scripts after download
 """
 
