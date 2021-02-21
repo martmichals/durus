@@ -1,5 +1,4 @@
 {
-    "extension": "/data/poloniex",
     "links": {
         "btc": [
             "/cdd/Poloniex_BTCUSDT_1h.csv"
