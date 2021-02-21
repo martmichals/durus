@@ -1,0 +1,31 @@
+{
+    "extension": "/data/gemini",
+    "links": {
+        "btc": [
+            "/cdd/gemini_BTCUSD_2015_1min.csv",
+            "/cdd/gemini_BTCUSD_2016_1min.csv",
+            "/cdd/gemini_BTCUSD_2017_1min.csv",
+            "/cdd/gemini_BTCUSD_2018_1min.csv",
+            "/cdd/gemini_BTCUSD_2019_1min.csv",
+            "/cdd/gemini_BTCUSD_2020_1min.csv"
+        ],
+        "eth": [
+            "/cdd/gemini_ETHUSD_2016_1min.csv",
+            "/cdd/gemini_ETHUSD_2017_1min.csv",
+            "/cdd/gemini_ETHUSD_2018_1min.csv",
+            "/cdd/gemini_ETHUSD_2019_1min.csv",
+            "/cdd/gemini_ETHUSD_2020_1min.csv"
+        ],
+        "ltc": [
+            "/cdd/gemini_LTCUSD_2018_1min.csv",
+            "/cdd/gemini_LTCUSD_2019_1min.csv",
+            "/cdd/gemini_LTCUSD_2020_1min.csv"
+        ],
+        "zec": [
+            "/cdd/gemini_ZECUSD_2018_1min.csv",
+            "/cdd/gemini_ZECUSD_2019_1min.csv",
+            "/cdd/gemini_ZECUSD_2020_1min.csv"
+        ]
+    },
+    "tostandard": ""
+}
