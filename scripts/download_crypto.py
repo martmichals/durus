@@ -47,6 +47,7 @@ def launch_exchange_download(base_url, exchange_dir):
                         print('{} [\033[92m✓\033[0m]'.format(link.split('/')[-1]))
                 
                 # TODO : Run cleanup scripts here
+                # TODO : Look into USDT, is it diff than USD
     else:
         raise Exception('{} does not have metadata to facilitate downloads'.format(exchange_dir))
 

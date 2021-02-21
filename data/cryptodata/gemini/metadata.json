@@ -1,5 +1,4 @@
 {
-    "extension": "/data/gemini",
     "links": {
         "btc": [
             "/cdd/gemini_BTCUSD_2015_1min.csv",

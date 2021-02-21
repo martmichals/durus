@@ -1,0 +1,20 @@
+{
+    "links": {
+        "btc": [
+            "/cdd/Bitstamp_BTCUSD_minute.csv"
+        ],
+        "eth": [
+            "/cdd/Bitstamp_ETHUSD_minute.csv"
+        ],
+        "ltc": [
+            "/cdd/Bitstamp_LTCUSD_minute.csv"
+        ],
+        "xrp": [
+            "/cdd/Bitstamp_XRPUSD_minute.csv"
+        ],
+        "bch": [
+            "/cdd/Bitstamp_BCHUSD_minute.csv"
+        ]
+    },
+    "cleanup": ""
+}

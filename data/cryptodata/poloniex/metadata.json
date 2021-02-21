@@ -1,0 +1,45 @@
+{
+    "extension": "/data/poloniex",
+    "links": {
+        "btc": [
+            "/cdd/Poloniex_BTCUSDT_1h.csv"
+        ],
+        "eth": [
+            "/cdd/Poloniex_ETHUSDT_1h.csv"
+        ],
+        "ltc": [
+            "/cdd/Poloniex_LTCUSDT_1h.csv"
+        ],
+        "xrp": [
+            "/cdd/Poloniex_XRPUSDT_1h.csv"
+        ],
+        "bch": [
+            "/cdd/Poloniex_BCHUSDT_1h.csv"
+        ],
+        "xmr": [
+            "/cdd/Poloniex_XMRUSD_1h.csv"
+        ],
+        "dash": [
+            "/cdd/Poloniex_DASHUSDT_1h.csv"
+        ],
+        "etc": [
+            "/cdd/Poloniex_ETCUSDT_1h.csv"
+        ],
+        "bat": [
+            "/cdd/Poloniex_BATUSDT_1h.csv"
+        ],
+        "zrx": [
+            "/cdd/Poloniex_ZRXUSDT_1h.csv"
+        ],
+        "eos": [
+            "/cdd/Poloniex_EOSUSDT_1h.csv"
+        ],
+        "lsk": [
+            "/cdd/Poloniex_LSKUSDT_1h.csv"
+        ],
+        "rep": [
+            "/cdd/Poloniex_REPUSDT_1h.csv"
+        ]
+    },
+    "cleanup": ""
+}

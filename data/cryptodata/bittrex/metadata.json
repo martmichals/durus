@@ -1,0 +1,29 @@
+{
+    "links": {
+        "btc": [
+            "/cdd/Bittrex_BTCUSD_1h.csv"
+        ],
+        "eth": [
+            "/cdd/Bittrex_ETHUSD_1h.csv"
+        ],
+        "ltc": [
+            "/cdd/Bittrex_LTCUSD_1h.csv"
+        ],
+        "neo": [
+            "/cdd/Bittrex_NEOUSD_1h.csv"
+        ],
+        "etc": [
+            "/cdd/Bittrex_ETCUSD_1h.csv"
+        ],
+        "omg": [
+            "/cdd/Bittrex_OMGUSD_1h.csv"
+        ],
+        "xmr": [
+            "/cdd/Bittrex_XMRUSD_1h.csv"
+        ],
+        "dash": [
+            "/cdd/Bittrex_DASHUSD_1h.csv"
+        ]
+    },
+    "cleanup": ""
+}

@@ -1,0 +1,62 @@
+{
+    "links": {
+        "btc": [
+            "/cdd/Bitfinex_BTCUSD_minute.csv"
+        ],
+        "eth": [
+            "/cdd/Bitfinex_ETHUSD_minute.csv"
+        ],
+        "ltc": [
+            "/cdd/Bitfinex_LTCUSD_minute.csv"
+        ],
+        "aid": [
+            "/cdd/Bitfinex_AIDUSD_minute.csv"
+        ],
+        "bat": [
+            "/cdd/Bitfinex_BATUSD_minute.csv"
+        ],
+        "dai": [
+            "/cdd/Bitfinex_DAIUSD_minute.csv"
+        ],
+        "dash": [
+            "/cdd/Bitfinex_DASHUSD_minute.csv"
+        ],
+        "edo": [
+            "/cdd/Bitfinex_EDOUSD_minute.csv"
+        ],
+        "eos": [
+            "/cdd/Bitfinex_EOSUSD_minute.csv"
+        ],
+        "etc": [
+            "/cdd/Bitfinex_ETCUSD_minute.csv"
+        ],
+        "etp": [
+            "/cdd/Bitfinex_ETPUSD_minute.csv"
+        ],
+        "neo": [
+            "/cdd/Bitfinex_NEOUSD_minute.csv"
+        ],
+        "omg": [
+            "/cdd/Bitfinex_OMGUSD_minute.csv"
+        ],
+        "gtum": [
+            "/cdd/Bitfinex_QTUMUSD_minute.csv"
+        ],
+        "rep": [
+            "/cdd/Bitfinex_REPUSD_minute.csv"
+        ],
+        "trx": [
+            "/cdd/Bitfinex_TRXUSD_minute.csv"
+        ],
+        "xlm": [
+            "/cdd/Bitfinex_XLMUSD_minute.csv"
+        ],
+        "xmr": [
+            "/cdd/Bitfinex_XMRUSD_minute.csv"
+        ],
+        "xvg": [
+            "/cdd/Bitfinex_XVGUSD_minute.csv"
+        ]
+    },
+    "cleanup": ""
+}
