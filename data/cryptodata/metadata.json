@@ -1,7 +1,9 @@
 {
     "url": "http://www.cryptodatadownload.com",
     "exchanges": [
-        "gemini",
+        "gemini"
+    ],
+    "other": [
         "bitstamp", 
         "cexio",
         "bitfinex",

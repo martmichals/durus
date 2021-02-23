@@ -7,7 +7,7 @@ import shutil, json, os
 from pathlib import Path
 
 # Iterate over exchanges in overall cryptodata folder
-crypto_dir = Path('../data/cryptodata')
+crypto_dir = Path('../../data/cryptodata')
 crypto_meta = crypto_dir/'metadata.json'
 with open(crypto_meta) as crypto_meta_file:
     crypto_meta_json = json.load(crypto_meta_file)

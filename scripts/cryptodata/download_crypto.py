@@ -28,31 +28,33 @@ def launch_exchange_download(base_url, exchange_dir):
             for curr in exchange_meta_json['links']:
 
                 # Clear existing data
-                curr_folder = exchange_dir/curr
-                if curr_folder.exists():
-                    for file in os.listdir(curr_folder):
-                        os.remove(curr_folder/file)
-                else:
-                    os.mkdir(curr_folder)
+                # curr_folder = exchange_dir/curr
+                # if curr_folder.exists():
+                #     for file in os.listdir(curr_folder):
+                #         os.remove(curr_folder/file)
+                # else:
+                #     os.mkdir(curr_folder)
 
                 # Download and write data to files in currency directory
-                for link in exchange_meta_json['links'][curr]:
-                    download_link = base_url+link
-                    req = requests.get(download_link)
-                    if req.status_code != 200:
-                        print('{} [\033[91mX\033[0m]'.format(link.split('/')[-1]))
-                    else:
-                        with open(curr_folder/download_link.split('/')[-1], 'wb') as f:
-                            f.write(req.content)
-                        print('{} [\033[92m✓\033[0m]'.format(link.split('/')[-1]))
+                # for link in exchange_meta_json['links'][curr]:
+                #     download_link = base_url+link
+                #     req = requests.get(download_link)
+                #     if req.status_code != 200:
+                #         print('{} [\033[91mX\033[0m]'.format(link.split('/')[-1]))
+                #     else:
+                #         with open(curr_folder/download_link.split('/')[-1], 'wb') as f:
+                #             f.write(req.content)
+                #         print('{} [\033[92m✓\033[0m]'.format(link.split('/')[-1]))
+                break
                 
-                # TODO : Run cleanup scripts here
-                # TODO : Look into USDT, is it diff than USD
+            # Run the cleanup scripts if indicated
+            if exchange_meta_json['cleanup'] != '':
+                os.system(exchange_meta_json['cleanup'])
     else:
         raise Exception('{} does not have metadata to facilitate downloads'.format(exchange_dir))
 
 # Iterate over exchanges in overall cryptodata folder
-crypto_dir = Path('../data/cryptodata')
+crypto_dir = Path('../../data/cryptodata')
 crypto_meta = crypto_dir/'metadata.json'
 with open(crypto_meta) as crypto_meta_file:
     crypto_meta_json = json.load(crypto_meta_file)

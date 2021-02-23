@@ -26,5 +26,5 @@
             "/cdd/gemini_ZECUSD_2020_1min.csv"
         ]
     },
-    "cleanup": ""
+    "cleanup": "python combine_crypto.py --ex gemini"
 }
